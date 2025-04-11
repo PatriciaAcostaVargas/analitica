@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 # Cargar el archivo CSV
 @st.cache
 def load_data():
-    df = pd.read_csv('/path/to/tu/archivo.csv')  # Reemplaza con la ruta correcta de tu archivo
+    df = pd.read_csv('https://github.com/PatriciaAcostaVargas/analitica/blob/main/compras.csv')  # Reemplaza con la ruta correcta de tu archivo
     return df
 
 # Cargar y mostrar los datos
